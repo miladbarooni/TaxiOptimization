@@ -1,0 +1,101 @@
+{
+  "timestamp": "2026-01-01T06:51:32.326007",
+  "experiments": [
+    {
+      "dataset": "Small (9 trips)",
+      "num_trips": 9,
+      "num_locations": 11,
+      "compatible_pairs": 27,
+      "phase1": {
+        "min_taxis": 3,
+        "flow_cost": -6,
+        "time_seconds": 0.0005
+      },
+      "phase2": {
+        "taxis_used": 3,
+        "total_empty_distance": 103,
+        "time_seconds": 0.0003
+      }
+    },
+    {
+      "dataset": "Medium (115 trips)",
+      "num_trips": 115,
+      "num_locations": 11,
+      "compatible_pairs": 4153,
+      "phase1": {
+        "min_taxis": 24,
+        "flow_cost": -91,
+        "time_seconds": 0.0316
+      },
+      "phase2": {
+        "taxis_used": 27,
+        "total_empty_distance": 891,
+        "time_seconds": 0.0278
+      }
+    },
+    {
+      "dataset": "Large (839 trips)",
+      "num_trips": 839,
+      "num_locations": 11,
+      "compatible_pairs": 225590,
+      "phase1": {
+        "min_taxis": 98,
+        "flow_cost": -741,
+        "time_seconds": 5.1327
+      },
+      "phase2": {
+        "taxis_used": 113,
+        "total_empty_distance": 2918,
+        "time_seconds": 3.3233
+      }
+    },
+    {
+      "dataset": "Synthetic (1500 trips)",
+      "num_trips": 1500,
+      "num_locations": 11,
+      "compatible_pairs": 1085728,
+      "phase1": {
+        "min_taxis": 25,
+        "flow_cost": -1475,
+        "time_seconds": 22.1973
+      },
+      "phase2": {
+        "taxis_used": 39,
+        "total_empty_distance": 2367,
+        "time_seconds": 19.0784
+      }
+    },
+    {
+      "dataset": "Synthetic (2000 trips)",
+      "num_trips": 2000,
+      "num_locations": 11,
+      "compatible_pairs": 1929768,
+      "phase1": {
+        "min_taxis": 24,
+        "flow_cost": -1976,
+        "time_seconds": 54.3231
+      },
+      "phase2": {
+        "taxis_used": 44,
+        "total_empty_distance": 3165,
+        "time_seconds": 48.7368
+      }
+    },
+    {
+      "dataset": "Synthetic (3000 trips)",
+      "num_trips": 3000,
+      "num_locations": 11,
+      "compatible_pairs": 4343024,
+      "phase1": {
+        "min_taxis": 34,
+        "flow_cost": -2966,
+        "time_seconds": 198.3911
+      },
+      "phase2": {
+        "taxis_used": 76,
+        "total_empty_distance": 3607,
+        "time_seconds": 140.1486
+      }
+    }
+  ]
+}
