@@ -1,0 +1,12 @@
+name: github
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - networkx>=2.8
+  - matplotlib>=3.5
+  - numpy>=1.21
+  - pip
+  - pip:
+    - pulp>=2.7
